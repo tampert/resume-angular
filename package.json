@@ -1,10 +1,12 @@
 {
   "name": "resume-angular",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "homepage": "https://tampert.github.io/resume-angular/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:gh-pages": "ng build --base-href https://tampert.github.io/resume-angular/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:resume-angular": "node dist/resume-angular/server/server.mjs"
